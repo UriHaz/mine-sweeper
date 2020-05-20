@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(211, 160, 160);
+    color: white;
+    text-align: center;
+  }
+  
+
+  .board {
+    margin: 10px auto;
+    border-color: black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: darkgray;
+    color: rgb(14, 12, 12);
+  }
+
+  span {
+
+    box-sizing: 40px;
+    padding: 20px;
+    padding-block-end: 30px;
+    width: 400px;
+    height: 400px;
+    display: none;
+    margin-bottom: 40px;
+
+  }
