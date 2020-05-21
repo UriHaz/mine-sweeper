@@ -1,24 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>minesweeper</title>
-    <link rel="stylesheet" href="css/app.css" />
-
+    <meta charset="utf-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onload="init()">
+    <header>
+        <h1>Mine Sweeper</h1>
+        <button onclick="renderLevel(4, 2)">Beginner</button>
+        <button onclick="renderLevel(8, 12)">Medium</button>
+        <button onclick="renderLevel(12, 30)">Expert</button>
+        <button class="restart" onclick="restart()">Restart</button>
+        <div class="timer"></div>
+        
+    </header>
 
+    <div class="board">
 
-    <table border="3" cellpadding="20">
-       <!-- <th></th> -->
-        <tbody class="board"></tbody>
-    </table>
-
-    <script src="js/util.js"></script>
+    </div>
     <script src="js/game.js"></script>
+
+
 </body>
 
 </html>

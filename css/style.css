@@ -1,0 +1,70 @@
+body{
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  background-color: rgb(212, 137, 66);
+}
+
+header{
+  background-color: rgb(226, 205, 112);
+  padding-top: 17px;
+}
+
+h1 {
+  color: rgb(172, 105, 66);
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+  
+
+button{
+  background-color:  rgba(250, 248, 244, 0.486);
+  color: rgb(90, 117, 82);
+  border:   rgb(197, 78, 48);
+  height: 45px;
+  width: 110px;
+  font-size: large;
+  border-radius: 60%;
+  
+}
+
+.timer{
+  font-size: large;
+  margin-left: 40px;
+  left: 50px;
+  color: rgb(184, 101, 46);
+  
+}
+
+
+.restart{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  
+}
+
+table{
+  
+  background-color: rgb(165, 158, 158);
+  margin: 0 auto;
+  border:  rgb(255, 205, 112);
+  color:  rgb(255, 205, 112);;
+  margin-top: 3%;
+  
+}
+.cell {
+  border: solid rgb(255, 205, 112);
+  background-color: rgb(179, 167, 153);
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  color: rgb(184, 35, 13);
+  box-sizing: border-box;
+  
+}
+
+.clicked {
+    background-color: hsl(336, 9%, 77%) ;
+}
