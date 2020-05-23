@@ -3,11 +3,13 @@ body{
   padding-top: 20px;
   margin: 0 auto;
   background-color: rgb(212, 137, 66);
+  
 }
 
 header{
   background-color: rgb(226, 205, 112);
   padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 h1 {
@@ -16,6 +18,16 @@ h1 {
   font-size: 40px;
 }
   
+.restart{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: none;
+  color: none;
+  
+  
+}
 
 button{
   background-color:  rgba(250, 248, 244, 0.486);
@@ -25,25 +37,13 @@ button{
   width: 110px;
   font-size: large;
   border-radius: 60%;
-  
-}
-
-.timer{
-  font-size: large;
-  margin-left: 40px;
-  left: 50px;
-  color: rgb(184, 101, 46);
-  
-}
-
-
-.restart{
-  display: block;
-  margin: 0 auto;
+  outline: none;
   margin-top: 10px;
-
   
 }
+
+
+
 
 table{
   
@@ -66,5 +66,13 @@ table{
 }
 
 .clicked {
-    background-color: hsl(336, 9%, 77%) ;
+  background-color: hsl(336, 9%, 77%) ;
+}
+
+.timer{
+  font-size: large;
+  left: 50px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(64, 88, 66);
 }
